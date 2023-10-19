@@ -1,6 +1,4 @@
 .. image:: frontend/public/assets/crab.png
-.. image:: https://img.shields.io/github/last-commit/MugoDom/crabstack-site/development
-:   alt: GitHub last commit (branch)
 
 
 #############
