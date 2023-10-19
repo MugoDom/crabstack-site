@@ -18,8 +18,8 @@ const App = () => {
   return (
     <>
       <Helmet>
-        <title>Moonex - Portfolio & Agency React Template</title>
-        <meta name="description" content="Portfolio & Agency React Template" />
+        <title>Crabstack Media</title>
+        <meta name="description" content="Portfolio & Agency" />
         <meta
           name="keywords"
           content="agency, bootstrap 5, business, clean, corporate, creative, fullpage, minimal, modern, multipurpose, parallax, personal, photography, portfolio, showcase"

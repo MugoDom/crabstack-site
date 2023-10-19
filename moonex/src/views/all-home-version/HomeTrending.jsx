@@ -23,7 +23,7 @@ const HomeTrending = () => {
         <div className="ptf-main">
           <div className="ptf-page ptf-page--home-trending">
             {/*=============================================
-            Start Hero Section 
+            Start Hero Section
             ============================================== */}
             <section>
               {/* <!--Spacer--> */}
@@ -111,7 +111,7 @@ const HomeTrending = () => {
             </section>
 
             {/*=============================================
-            Start Latest Project Section 
+            Start Latest Project Section
             ============================================== */}
             <section>
               <div className="container-xxl">
@@ -220,7 +220,7 @@ const HomeTrending = () => {
             {/* End section devider */}
 
             {/*=============================================
-            Start Service Section 
+            Start Service Section
             ============================================== */}
             <section>
               {/* <!--Spacer--> */}
@@ -407,7 +407,7 @@ const HomeTrending = () => {
       {/* End .ptf-site-wrapper__inner */}
 
       {/*=============================================
-        Start Footer Section 
+        Start Footer Section
         ============================================== */}
       <footer className="ptf-footer ptf-footer--style-2">
         <div className="container-xxl">

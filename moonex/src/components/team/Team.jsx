@@ -23,7 +23,7 @@ const teamContent = [
     delayAnimation: "300",
     img: "team-4",
     title: "Raymond Munene",
-    designation: "Graphic Designer",
+    designation: "Creative and Media Producer",
   },
 ];
 
