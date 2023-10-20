@@ -57,7 +57,7 @@ const HomeAgency = () => {
                 {/* <!--Spacer--> */}
                 <div
                   className="ptf-spacer"
-                  style={{ "--ptf-xxl": "1rem", "--ptf-md": "2.1875rem" }}
+                  style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
                 ></div>
                 <div
                   className="row"
@@ -125,9 +125,9 @@ const HomeAgency = () => {
           ============================================== */}
             <section id="works">
               <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "2.125rem" }}
-              ></div>
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "2.125rem", "--ptf-md": "5rem" }}
+                id="works"></div>
               <div className="container">
                 {/* <!--Animated Block--> */}
                 <div
@@ -139,9 +139,10 @@ const HomeAgency = () => {
                     Latest Works
                   </h2>
                 </div>
-                {/* End .ptf-animated-block */}
-
-                {/* <!--Spacer--> */}
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
+                ></div>
                 
                 <BlogMasonry />
               </div>
@@ -155,7 +156,7 @@ const HomeAgency = () => {
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "2.125rem", "--ptf-md": "4.375rem" }}
+                style={{ "--ptf-xxl": "2.125rem", "--ptf-md": "5rem" }}
               ></div>
               <div className="container">
                 {/* <!--Animated Block--> */}
@@ -169,7 +170,7 @@ const HomeAgency = () => {
                 {/* <!--Spacer--> */}
                 <div
                   className="ptf-spacer"
-                  style={{ "--ptf-xxl": "5.625rem", "--ptf-md": "2.8125rem" }}
+                  style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
                 ></div>
               </div>
               <div className="container">
@@ -180,7 +181,7 @@ const HomeAgency = () => {
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "5rem" }}
               ></div>
             </section>
             {/*=============================================
@@ -190,7 +191,7 @@ const HomeAgency = () => {
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "4.375rem", "--ptf-md": "2.1875rem" }}
+                style={{ "--ptf-xxl": "2.125rem", "--ptf-md": "5rem" }}
               ></div>
               <div className="container-xxl">
                 <div className="row">
@@ -211,7 +212,7 @@ const HomeAgency = () => {
                 {/* <!--Spacer--> */}
                 <div
                   className="ptf-spacer"
-                  style={{ "--ptf-xxl": "2.125rem", "--ptf-md": "3.75rem" }}
+                  style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
                 ></div>
                 <div className="row">
                   <div className="col-lg-12">
