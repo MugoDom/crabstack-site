@@ -16,6 +16,7 @@ migrations/
 # Distribution / packaging
 .Python
 build/
+static/
 develop-eggs/
 dist/
 downloads/
