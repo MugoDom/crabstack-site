@@ -5,7 +5,7 @@ from apps.blog.models import Blog
 class BlogType(DjangoObjectType):
     class Meta:
         model = Blog
-        field = ("id","blogid","title","body", "is_published", "author", "created_date","modified_date", "image")
+        fields = ("code","blogid","title","body", "is_published", "author", "created_date","modified_date", "image")
 
 class Query(graphene.ObjectType):
     list_blogs=graphene.List(BlogType)

@@ -7,7 +7,7 @@ User = settings.AUTH_USER_MODEL
 
 class Blog(models.Model):
     blogid = models.AutoField(primary_key=True, editable=False,db_column='blogid')
-    id = models.UUIDField(default=uuid.uuid4, editable=False, unique=True,db_column='id')
+    code = models.UUIDField(default=uuid.uuid4, editable=False, unique=True,db_column='code')
     title = models.CharField(max_length=100,db_column='title')
     slug = models.SlugField(null=False, unique=True,db_column='slug')
     body = models.TextField(db_column='body')

@@ -8,7 +8,7 @@ from project.settings.schema import schema
 
 urlpatterns = [
     path('bunker/', admin.site.urls),
-    path("graphql", csrf_exempt(GraphQLView.as_view(graphiql=True, schema=schema))),
+    path("graphql", csrf_exempt(GraphQLView.as_view(graphiql=True))),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
