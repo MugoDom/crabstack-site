@@ -5,12 +5,14 @@ name = "pypi"
 
 [packages]
 django = "*"
+django-cors-headers==3.5.0
 pillow = "*"
 pyscopg2 = "*"
 psycopg2-binary = "*"
 python-decouple = "*"
 graphene = "*"
 graphene-django = "*"
+
 
 [dev-packages]
 
