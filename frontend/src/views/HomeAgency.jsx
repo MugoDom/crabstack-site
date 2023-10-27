@@ -34,12 +34,16 @@ const HomeAgency = () => {
                 <HeroAgency />
               </div>
             </div>
+            <div
+                className="ptf-spacer" id="services"
+                style={{ "--ptf-xxl": "5rem", "--ptf-md": "5rem" }}
+              ></div>
 
             {/*=============================================
           Start Service section
           ============================================== */}
 
-            <section id="services">
+            <section>
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
@@ -119,15 +123,16 @@ const HomeAgency = () => {
 
               
             </section>
+            <div
+                className="ptf-spacer" id="works"
+                style={{ "--ptf-xxl": "5rem", "--ptf-md": "5rem" }}
+              ></div>
+
 
             {/*=============================================
           Start Latest Works section
           ============================================== */}
-            <section id="works">
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "2.125rem", "--ptf-md": "5rem" }}
-                id="works"></div>
+            <section>
               <div className="container">
                 {/* <!--Animated Block--> */}
                 <div
@@ -148,11 +153,15 @@ const HomeAgency = () => {
               </div>
               
             </section>
+            <div
+                className="ptf-spacer" id="team"
+                style={{ "--ptf-xxl": "5rem", "--ptf-md": "5rem" }}
+              ></div>
 
             {/*=============================================
           Start Our Crew/Team section
           ============================================== */}
-            <section className="ptf-custom--1569" id="team">
+            <section className="ptf-custom--1569">
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
@@ -180,14 +189,14 @@ const HomeAgency = () => {
               </div>
               {/* <!--Spacer--> */}
               <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "5rem" }}
+                className="ptf-spacer" id="blog"
+                style={{ "--ptf-xxl": "5rem", "--ptf-md": "5rem" }}
               ></div>
             </section>
             {/*=============================================
           Start Blog section
           ============================================== */}
-            <section id="blog">
+            <section>
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"

@@ -37,7 +37,7 @@ const HeroAgency = () => {
                 className="fz-28 has-white-color text-center"
                 style={{ maxWidth: "34.375rem", margin: "0 auto" }}
               >
-                We <span className="has-accent-1">brand</span> you
+                We make <span className="has-accent-1"> you </span> visible.
               </h1>
 
               {/* <!--Spacer--> */}
