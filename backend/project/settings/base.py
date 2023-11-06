@@ -26,7 +26,7 @@ DJANGO_APPS = [
 
 THIRD_PARTY_APPS = [
     'graphene_django',
-    'corsheaders'
+    'corsheaders',
 ]
 
 USER_APPS = ['apps.blog',
@@ -38,6 +38,7 @@ INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + USER_APPS
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    "corsheaders.middleware.CorsMiddleware",
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'corsheaders.middleware.CorsMiddleware',
