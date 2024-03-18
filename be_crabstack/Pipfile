@@ -9,6 +9,8 @@ psycopg2-binary = "*"
 pillow = "*"
 graphene = "*"
 graphene-django = "*"
+python-decouple = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 
